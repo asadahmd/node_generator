@@ -1,0 +1,6 @@
+name: 'Node Generator'
+type: module
+description: 'module for node generate'
+core: 8.x
+package: 'Custom'
+configure: nodegenerator.admin_settings

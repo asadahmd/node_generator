@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains node_generator.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function node_generator_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the node_generator module.
+    case 'help.page.node_generator':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('module for node generate') . '</p>';
+      return $output;
+
+    default:
+  }
+}

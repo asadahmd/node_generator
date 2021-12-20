@@ -1,0 +1,13 @@
+{
+    "name": "node_generator",
+    "type": "drupal-module",
+    "description": "module for node generate",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/node_generator",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/node_generator",
+        "source": "http://cgit.drupalcode.org/node_generator",
+    },
+}
