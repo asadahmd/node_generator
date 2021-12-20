@@ -1,0 +1,5 @@
+name: 'Node Generator Updated'
+type: module
+description: 'an updated node generator module'
+core: 8.x
+package: 'Custom'

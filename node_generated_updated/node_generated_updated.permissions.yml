@@ -1,0 +1,4 @@
+view updated_nodegenerate:
+  title: 'view form'
+  description: 'view and submit the node generator form'
+  restrict access: true

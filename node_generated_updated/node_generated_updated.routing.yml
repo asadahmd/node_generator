@@ -1,0 +1,7 @@
+node_generated_updated.node_generator_updated_form:
+  path: '/admin/generate-new-node'
+  defaults:
+    _form: '\Drupal\node_generated_updated\Form\NodeGeneratorUpdatedForm'
+    _title: 'NodeGeneratorUpdatedForm'
+  requirements:
+    _permission: 'view updated_nodegenerate'
